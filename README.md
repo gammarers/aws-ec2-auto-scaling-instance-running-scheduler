@@ -1,6 +1,7 @@
 # AWS EC2 AutoScaling Instance Running Scheduler
 
-This is an AWS CDK Construct to make EC2 AutoScaling instance running schedule (only running while working hours(start/stop)).
+This is an AWS CDK Construct to make EC2 AutoScaling instance running schedule (only running while working hours(start/stop)).  
+But only capacity min value is 0 for the AutoScalingGroup.
 
 ## Resources
 
