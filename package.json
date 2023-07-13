@@ -1,5 +1,5 @@
 {
-  "name": "@yicr/aws-ec2-auto-scaling-instance-running-scheduler",
+  "name": "aws-ec2-auto-scaling-instance-running-scheduler",
   "description": "AWS EC2 AutoScaling Instance Running Scheduler",
   "repository": {
     "type": "git",
@@ -75,9 +75,6 @@
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
-  "publishConfig": {
-    "access": "public"
-  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [
