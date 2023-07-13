@@ -15,21 +15,27 @@ This construct creating resource list.
 ### TypeScript
 
 ```shell
-npm install @yicr/aws-ec2-auto-scaling-instance-running-scheduler 
+npm install aws-ec2-auto-scaling-instance-running-scheduler 
 ```
 or
 ```shell
-yarn add @yicr/aws-ec2-auto-scaling-instance-running-scheduler
+yarn add aws-ec2-auto-scaling-instance-running-scheduler
+```
+
+### Python
+
+```shell
+pip install aws-ec2-auto-scaling-instance-running-scheduler
 ```
 
 ## Example
 
 ```shell
-npm install @yicr/aws-ec2-auto-scaling-instance-running-scheduler
+npm install aws-ec2-auto-scaling-instance-running-scheduler
 ```
 
 ```typescript
-import { Ec2AutoScalingInstanceRunningScheduler } from '@yicr/aws-ec2-auto-scaling-instance-running-scheduler';
+import { Ec2AutoScalingInstanceRunningScheduler } from 'aws-ec2-auto-scaling-instance-running-scheduler';
 
 new Ec2AutoScalingInstanceRunningScheduler(stack, 'Ec2AutoScalingInstanceRunningScheduler', {
   targets: [
