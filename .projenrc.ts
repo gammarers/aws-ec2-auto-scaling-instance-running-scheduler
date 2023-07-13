@@ -4,7 +4,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   authorAddress: 'yicr@users.noreply.github.com',
   cdkVersion: '2.62.0',
   defaultReleaseBranch: 'main',
-  name: '@yicr/aws-ec2-auto-scaling-instance-running-scheduler',
+  name: 'aws-ec2-auto-scaling-instance-running-scheduler',
   description: 'AWS EC2 AutoScaling Instance Running Scheduler',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/yicr/aws-ec2-auto-scaling-instance-running-scheduler.git',
@@ -21,6 +21,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
   autoApproveOptions: {
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['yicr'],
+  },
+  publishToPypi: {
+    distName: 'aws-ec2-auto-scaling-instance-running-scheduler',
+    module: 'aws_ec2_auto_scaling_instance_running_scheduler',
   },
 });
 project.synth();
