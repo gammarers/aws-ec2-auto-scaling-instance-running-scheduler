@@ -1,5 +1,5 @@
 {
-  "name": "aws-ec2-auto-scaling-instance-running-scheduler",
+  "name": "@gammarer/aws-ec2-auto-scaling-instance-running-scheduler",
   "description": "AWS EC2 AutoScaling Instance Running Scheduler",
   "repository": {
     "type": "git",
@@ -76,6 +76,9 @@
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [
@@ -123,8 +126,8 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "aws-ec2-auto-scaling-instance-running-scheduler",
-        "module": "aws_ec2_auto_scaling_instance_running_scheduler"
+        "distName": "gammarer.aws-ec2-auto-scaling-instance-running-scheduler",
+        "module": "gammarer.aws_ec2_auto_scaling_instance_running_scheduler"
       }
     },
     "tsc": {
