@@ -26,11 +26,19 @@ yarn add @gammarer/aws-ec2-auto-scaling-instance-running-scheduler
 pip install gammarer.aws-ec2-auto-scaling-instance-running-scheduler
 ```
 
-## Example
+### Java
 
-```shell
-npm install @gammarer/aws-ec2-auto-scaling-instance-running-scheduler
+Add the following to pom.xml:
+
+```xml
+<dependency>
+  <groupId>com.gammarer</groupId>
+  <artifactId>aws-ec2-auto-scaling-instance-running-scheduler</artifactId>
+</dependency>
 ```
+
+
+## Example
 
 ```typescript
 import { Ec2AutoScalingInstanceRunningScheduler } from '@gammarer/aws-ec2-auto-scaling-instance-running-scheduler';
