@@ -35,5 +35,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
     mavenArtifactId: 'aws-ec2-auto-scaling-instance-running-scheduler',
     mavenEndpoint: 'https://s01.oss.sonatype.org',
   },
+  publishToNuget: {
+    dotNetNamespace: 'Gammarer.CDK.AWS',
+    packageId: 'Gammarer.CDK.AWS.Ec2AutoScalingInstanceRunningScheduler',
+  },
 });
 project.synth();
