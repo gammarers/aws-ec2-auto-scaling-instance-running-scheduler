@@ -9,7 +9,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: '@gammarer/aws-ec2-auto-scaling-instance-running-scheduler',
   description: 'AWS EC2 AutoScaling Instance Running Scheduler',
   projenrcTs: true,
-  repositoryUrl: 'https://github.com/yicr/aws-ec2-auto-scaling-instance-running-scheduler.git',
+  repositoryUrl: 'https://github.com/gammarer/aws-ec2-auto-scaling-instance-running-scheduler.git',
   releaseToNpm: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
   minNodeVersion: '18.0.0',
