@@ -34,6 +34,12 @@ yarn add @gammarer/aws-ec2-auto-scaling-instance-running-scheduler
 pip install gammarer.aws-ec2-auto-scaling-instance-running-scheduler
 ```
 
+### C# / .NET
+
+```shell
+dotnet add package Gammarer.CDK.AWS.Ec2AutoScalingInstanceRunningScheduler
+```
+
 ### Java
 
 Add the following to pom.xml:
