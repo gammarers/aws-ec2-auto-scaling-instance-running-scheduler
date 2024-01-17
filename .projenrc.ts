@@ -10,6 +10,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: '@gammarer/aws-ec2-auto-scaling-instance-running-scheduler',
   description: 'AWS EC2 AutoScaling Instance Running Scheduler',
+  keywords: ['aws', 'cdk', 'aws-cdk', 'ec2', 'auto-scale', 'run', 'schedule'],
   projenrcTs: true,
   repositoryUrl: 'https://github.com/gammarer/aws-ec2-auto-scaling-instance-running-scheduler.git',
   releaseToNpm: true,

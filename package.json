@@ -65,7 +65,13 @@
     "constructs": "^10.0.5"
   },
   "keywords": [
-    "cdk"
+    "auto-scale",
+    "aws",
+    "aws-cdk",
+    "cdk",
+    "ec2",
+    "run",
+    "schedule"
   ],
   "engines": {
     "node": ">= 16.0.0"
